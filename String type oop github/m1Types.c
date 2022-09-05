@@ -14,10 +14,14 @@ typedef struct m1String{
 
 //last string position 	for slice function	
 #define  STR_LAST '$'
+
+
 //************ METHODS ****************
+
 //*********** PRIVATE  ****************
 //access only in 'm1Types'
 //PRIVATE void m1String_resize( m1String *st, long newSize);
+
 
 //******** PUBLIC *********************
 
