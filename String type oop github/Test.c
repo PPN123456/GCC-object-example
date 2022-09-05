@@ -5,6 +5,7 @@
 //Tested on gcc (tdm64-1) 10.3.0 
 int main(void){
 	
+	
 	m1String* str1 = m1String_newReadFromFile("testText.txt");
 	//if 'direct' str->length
 	//error: invalid use of incomplete typedef 'm1String' 
