@@ -1,7 +1,7 @@
 #ifndef __M1_TYPES_H__
 #define __M1_TYPES_H__
 
-#include <inttypes.h>
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
