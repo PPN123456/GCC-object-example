@@ -16,7 +16,7 @@ PUBLIC m1String*     m1String_newReadFromFile ( const char *fileName);
 PUBLIC void 	     m1String_free	    	  ( m1String** st);
 
 // SET
-PUBLIC void 		 m1String_setValue  ( m1String  *st, const char *str);
+PUBLIC void       m1String_setValue  ( m1String  *st, const char *str);
 //GET
 PUBLIC ULLONG        m1String_getLength  ( m1String *st);
 PUBLIC const char*   m1String_getValue   ( m1String *st);
