@@ -6,7 +6,7 @@
 int main(void){
 	
 	m1String* str1 = m1String_newReadFromFile("testText.txt");
-	//if 'direct' str->length
+	//if 'direct' str1->length
 	//error: invalid use of incomplete typedef 'm1String' 
 	//kind of protection( or private access )
 	//printf("File size: %llu bytes\n", str1->length);
