@@ -10,6 +10,7 @@ int main(void){
 	//error: invalid use of incomplete typedef 'm1String' 
 	//kind of protection( or private access )
 	//printf("File size: %llu bytes\n", str1->length);
+	
 	//access from 'set' 'get'
 	printf("File size: %llu bytes\n", m1String_getLength(str1) );
     printf("File content:\n%s", m1String_getValue(str1));
