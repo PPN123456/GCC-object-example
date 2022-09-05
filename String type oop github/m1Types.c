@@ -1,5 +1,5 @@
 #include "m1Types.h"
-//**** TYPE PRIVATE ****************
+//**** TYPE  ****************
 typedef struct m1String{
 	ULLONG   length; 
 	char     *value; 
